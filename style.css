@@ -4,13 +4,14 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    
 }
-img{
-    margin-left: 10px;
-    width: 100px;
-    height: 100px;
-    filter: contrast(18);
+body{
+    min-height: 100vh;
+    display: block;
+    background-color: #331d9f;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
 nav{
@@ -20,6 +21,7 @@ nav{
 }
 .meri{
     position: fixed;
+    /* z-index: -1; */
 }
 label.logo{
     color: rgb(255, 255, 255);
@@ -54,4 +56,50 @@ a.humara,a:hover{
     background: #331d9f;
     transition: 0.5s;
 
+}
+/* .pehlapage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+.container{
+    width: 450px;
+    overflow: hidden;
+}
+
+.container .try{
+    position: relative;
+    color: #930adc;
+    font-size: 30px;
+    font-weight: 600;
+}
+.container .try .pehla-anime{
+    color: aqua;
+}
+.try .dusra-anime:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* background-color: #331d9f; */
+    border: 2px solid #331d9f;
+    /* yaha pe doubt hai */
+    border-left: #930adc;
+    animation: animate 4s steps(12);
+
+}
+@keyframes animate{
+    40%,60%{
+        left:calc(100% + 4px)
+    }
+    40%,60%{
+        left:100%
+    }
+   100%{
+        left:0%
+    }
 }
