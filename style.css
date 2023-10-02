@@ -160,3 +160,7 @@ a.humara,a:hover{
     color: #ffffff;
     background-color: #ffffff;
 }
+.heroBg{
+    position: absolute;
+    z-index: 0;
+}
