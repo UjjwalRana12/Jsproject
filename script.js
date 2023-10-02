@@ -58,17 +58,17 @@ document.addEventListener('keydown', (event) => {
     
     event.preventDefault();
 });
-const allpanel = document.querySelectorAll('.panel');
+// const allpanel = document.querySelectorAll('.panel');
 
-allpanel.forEach(panel => {
-  panel.addEventListener('click', () => {
-    removeActiveClasses();
-    panel.classList.add('active');
-  })
-})
+// allpanel.forEach(panel => {
+//   panel.addEventListener('click', () => {
+//     removeActiveClasses();
+//     panel.classList.add('active');
+//   })
+// })
 
-function removeActiveClasses() {
-  allpanel.forEach(panel => {
-    panel.classList.remove('active');
-  });
-}
+// function removeActiveClasses() {
+//   allpanel.forEach(panel => {
+//     panel.classList.remove('active');
+//   });
+// }
