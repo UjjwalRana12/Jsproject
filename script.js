@@ -1,3 +1,4 @@
+
 const text = document.querySelector(".dusra-anime");
 
 const textload = () => {
@@ -57,3 +58,17 @@ document.addEventListener('keydown', (event) => {
     
     event.preventDefault();
 });
+const allpanel = document.querySelectorAll('.panel');
+
+allpanel.forEach(panel => {
+  panel.addEventListener('click', () => {
+    removeActiveClasses();
+    panel.classList.add('active');
+  })
+})
+
+function removeActiveClasses() {
+  allpanel.forEach(panel => {
+    panel.classList.remove('active');
+  });
+}

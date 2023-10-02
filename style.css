@@ -152,7 +152,7 @@ a.humara,a:hover{
 }
 
 #part3 {
-    background-color: rgb(255, 255, 255); 
+    background-color: aliceblue; 
 }
 #photu{
     width: 220px;
@@ -174,4 +174,39 @@ a.humara,a:hover{
 .heroBg img{
     height: 100vh;
     width: 100vw;
+}
+.tesrapage{
+    min-height: 100vh;
+    position: relative;
+    top: 258px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 100vh; */
+    width: 90vw;
+}
+.panel{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    flex: 0.5;
+    position: relative;
+    transition: flex 0.7s ease-in;
+    cursor: pointer;
+    margin: 10px;
+}
+.panel h3{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    opacity: 0;
+}
+.panel.active{
+    flex: 3;
+}
+.panel.active h3{
+    opacity: 1;
 }
