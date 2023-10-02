@@ -129,7 +129,7 @@ a.humara,a:hover{
     flex-direction: column;
 }
 .part {
-    flex: 1;
+    flex: .6;
     text-align: center;
     display: flex;
     align-items: center;
