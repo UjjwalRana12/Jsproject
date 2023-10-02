@@ -8,7 +8,7 @@ const textload = () => {
         text.textContent = "DEVELOPER";
     },2000);
     setTimeout(()=>{
-        text.textContent = "  AND DESIGNER";
+        text.textContent = " DESIGNER";
     },4000);
 }
 
