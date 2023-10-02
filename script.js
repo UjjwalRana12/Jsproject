@@ -54,6 +54,6 @@ document.addEventListener('keydown', (event) => {
         photo.style.left = leftPosition + 'px';
     }
 
-    // Prevent the default behavior of arrow keys to prevent page scrolling.
+    
     event.preventDefault();
 });

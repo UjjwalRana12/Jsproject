@@ -152,3 +152,11 @@ a.humara,a:hover{
     height: 220px;
     position: relative;
 }
+#changecolorbutton{
+    margin-left: 740px;
+    cursor: pointer;
+    display: hidden;
+    border: #ffffff;
+    color: #ffffff;
+    background-color: #ffffff;
+}
