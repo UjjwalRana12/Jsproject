@@ -2,13 +2,13 @@ const text = document.querySelector(".dusra-anime");
 
 const textload = () => {
     setTimeout(()=> {
-        text.textContent = "Software Incubators";
+        text.textContent = "SOFTWARE INCUBATORS";
     },0);
     setTimeout(()=>{
-        text.textContent = "pyaare";
+        text.textContent = "DEVELOPER";
     },2000);
     setTimeout(()=>{
-        text.textContent = "content";
+        text.textContent = "DESIGNER";
     },4000);
 }
 

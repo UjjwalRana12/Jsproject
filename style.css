@@ -4,11 +4,12 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
     min-height: 100vh;
     display: block;
-    background-color: #331d9f;
+    background-color: #ffffff;
     align-items: center;
     justify-content: center;
     overflow: hidden;
@@ -57,26 +58,42 @@ a.humara,a:hover{
     transition: 0.5s;
 
 }
+.pehlapage{
+    height: 100vh;
+}
 /* .pehlapage{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 } */
-
+.container :nth-child(2){
+    margin-top: 80px;
+}
 .container{
     width: 450px;
     overflow: hidden;
 }
 
 .container .try{
-    position: relative;
-    color: #930adc;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 40px;
+    /* position: relative; */
+    color: #a32121;
     font-size: 30px;
     font-weight: 600;
 }
-.container .try .pehla-anime{
-    color: aqua;
+/* .dusra-anime{
+    margin-top: 70px;
+} */
+
+
+/* .container{
+    margin-top: 100px;
+} */
+.container.try.pehla-anime{
+    color: rgb(48, 207, 207);
 }
 .try .dusra-anime:before{
     content: "";
@@ -86,13 +103,13 @@ a.humara,a:hover{
     height: 100%;
     width: 100%;
     /* background-color: #331d9f; */
-    border: 2px solid #331d9f;
+    border: 2px solid #ecebef;
     /* yaha pe doubt hai */
     border-left: #930adc;
     animation: animate 4s steps(12);
 
 }
-@keyframes animate{
+/* @keyframes animate{
     40%,60%{
         left:calc(100% + 4px)
     }
@@ -102,4 +119,7 @@ a.humara,a:hover{
    100%{
         left:0%
     }
+} */
+.dusrapage{
+    height: 100vh;
 }
