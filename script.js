@@ -8,7 +8,7 @@ const textload = () => {
         text.textContent = "DEVELOPER";
     },2000);
     setTimeout(()=>{
-        text.textContent = "DESIGNER";
+        text.textContent = "  AND DESIGNER";
     },4000);
 }
 
@@ -25,14 +25,14 @@ function colorchange(){
     part2.style.backgroundColor ="white";
     part3.style.backgroundColor ="green";
 }
-function nocolorchange(){
-    part1.style.backgroundColor ="white";
-    part2.style.backgroundColor ="blue";
-    part3.style.backgroundColor ="white";
-}
+// function nocolorchange(){
+//     part1.style.backgroundColor ="white";
+//     part2.style.backgroundColor ="blue";
+//     part3.style.backgroundColor ="white";
+// }
 
-changecolorbutton.addEventListener("click",colorchange);
-changecolorbutton.removeEventListener("click",nocolorchange);
+ changecolorbutton.addEventListener("click",colorchange);
+// changecolorbutton.removeEventListener("click",nocolorchange);
 
 
 const photo = document.getElementById('photu');
