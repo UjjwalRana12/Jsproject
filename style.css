@@ -147,3 +147,8 @@ a.humara,a:hover{
 #part3 {
     background-color: lavender; 
 }
+#photu{
+    width: 220px;
+    height: 220px;
+    position: relative;
+}

@@ -33,3 +33,27 @@ function nocolorchange(){
 
 changecolorbutton.addEventListener("click",colorchange);
 changecolorbutton.removeEventListener("click",nocolorchange);
+
+
+const photo = document.getElementById('photu');
+let topPosition = 0;
+let leftPosition = 0;
+
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'ArrowUp') {
+        topPosition -= 10;
+        photo.style.top = topPosition + 'px';
+    } else if (event.key === 'ArrowDown') {
+        topPosition += 10;
+        photo.style.top = topPosition + 'px';
+    } else if (event.key === 'ArrowLeft') {
+        leftPosition -= 10;
+        photo.style.left = leftPosition + 'px';
+    } else if (event.key === 'ArrowRight') {
+        leftPosition += 10;
+        photo.style.left = leftPosition + 'px';
+    }
+
+    // Prevent the default behavior of arrow keys to prevent page scrolling.
+    event.preventDefault();
+});
