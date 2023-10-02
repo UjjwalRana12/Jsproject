@@ -5,6 +5,7 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* overflow-x: hidden; */
 }
 body{
     min-height: 100vh;
@@ -12,6 +13,7 @@ body{
     background-color: #ffffff;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden;
     /* overflow: hidden; */
 }
 
@@ -59,7 +61,7 @@ nav ul li a{
 
 }
 a.humara,a:hover{
-    background: #331d9f;
+    background: #245f7b;
     transition: 0.5s;
 
 }
